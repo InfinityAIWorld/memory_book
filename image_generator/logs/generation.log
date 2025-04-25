@@ -1,0 +1,46 @@
+2025-04-22 22:47:31,836 - INFO - Iniciando geração para linha 1
+2025-04-22 22:47:33,487 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:47:33,487 - WARNING - [1] Falha, tentativa 1: Erro ao gerar imagem: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:48:33,515 - INFO - Iniciando geração para linha 1
+2025-04-22 22:48:33,977 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:48:33,979 - WARNING - [1] Falha, tentativa 2: Erro ao gerar imagem: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:49:34,011 - INFO - Iniciando geração para linha 1
+2025-04-22 22:49:34,440 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:49:34,440 - ERROR - [1] Erro após 3 tentativas: Erro ao gerar imagem: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:50:34,473 - INFO - Iniciando geração para linha 2
+2025-04-22 22:50:35,008 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:50:35,008 - WARNING - [2] Falha, tentativa 1: Erro ao gerar imagem: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:51:35,033 - INFO - Iniciando geração para linha 2
+2025-04-22 22:51:35,469 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:51:35,469 - WARNING - [2] Falha, tentativa 2: Erro ao gerar imagem: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:52:35,493 - INFO - Iniciando geração para linha 2
+2025-04-22 22:52:36,399 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:52:36,399 - ERROR - [2] Erro após 3 tentativas: Erro ao gerar imagem: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:59:00,351 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:59:00,352 - WARNING - [1] Tentativa 1 falhou: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:59:01,734 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:59:01,734 - WARNING - [1] Tentativa 2 falhou: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:59:03,087 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 22:59:03,087 - WARNING - [1] Tentativa 3 falhou: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 22:59:04,088 - ERROR - [1] Erro definitivo após 3 tentativas
+2025-04-22 23:00:04,512 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 23:00:04,513 - WARNING - [2] Tentativa 1 falhou: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 23:00:05,869 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 23:00:05,869 - WARNING - [2] Tentativa 2 falhou: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 23:00:07,230 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-04-22 23:00:07,231 - WARNING - [2] Tentativa 3 falhou: Error code: 400 - {'error': {'message': 'Error in request. Please check your input.', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2025-04-22 23:00:08,232 - ERROR - [2] Erro definitivo após 3 tentativas
+2025-04-22 23:05:20,129 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-04-22 23:05:21,603 - INFO - [1] Imagem gerada e salva em: C:\Users\User/Documents/ImagensGeradas\1_20250422_230520.png
+2025-04-22 23:06:35,781 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-04-22 23:06:37,516 - INFO - [2] Imagem gerada e salva em: C:\Users\User/Documents/ImagensGeradas\2_20250422_230635.png
+2025-04-22 23:47:27,086 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-04-22 23:47:29,634 - INFO - [1] Imagem gerada e salva em: C:\Users\User/Documents/ImagensGeradas\1_20250422_234727.png
+2025-04-22 23:48:46,505 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-04-22 23:48:48,164 - INFO - [2] Imagem gerada e salva em: C:\Users\User/Documents/ImagensGeradas\2_20250422_234846.png
+2025-04-22 23:50:06,232 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-04-22 23:50:08,127 - INFO - [3] Imagem gerada e salva em: C:\Users\User/Documents/ImagensGeradas\3_20250422_235006.png
+2025-04-22 23:51:24,642 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-04-22 23:51:26,527 - INFO - [4] Imagem gerada e salva em: C:\Users\User/Documents/ImagensGeradas\4_20250422_235124.png
+2025-04-22 23:52:43,526 - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-04-22 23:52:45,456 - INFO - [5] Imagem gerada e salva em: C:\Users\User/Documents/ImagensGeradas\5_20250422_235243.png
